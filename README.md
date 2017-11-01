@@ -24,7 +24,7 @@ and derive anib values.
 This parameter is mandatory. The file list.txt provides a valid example.
 Sample genomes are also available on this github branch
 
-The second parameter in the number of processors to be used by blastn. If no value 
+The second parameter is the number of processors to be used by blastn. If no value 
 is provided the default (1) will be used. You don't know about that, it can be left
 to 1. My advice is to you as many processors as you can on your machine
 
