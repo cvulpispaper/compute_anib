@@ -21,7 +21,8 @@ All the genomes need to be in fasta format, and the list should must contain
 the actual names of the files (not the species or anything else). The program 
 will create a blast database out of every genome, perform all against all blastn
 and derive anib values.
-This parameter is mandatory.
+This parameter is mandatory. The file list.txt provides a valid example.
+Sample genomes are also available on this github branch
 
 The second parameter in the number of processors to be used by blastn. If no value 
 is provided the default (1) will be used. You don't know about that, it can be left
