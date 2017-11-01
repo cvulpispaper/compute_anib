@@ -1,0 +1,7 @@
+coli.fasta
+concisus.fasta
+corcagiensis.fasta
+cuniculorum.fasta
+curvus.fasta
+fetus.fasta
+gracilis.fasta
