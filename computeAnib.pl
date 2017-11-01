@@ -9,7 +9,7 @@ die("\n
      #This program requires 3 input parameters: A file containing a list of fasta files with the genomes,# 
      #the number of processors to be used by blastn, and a name for the output file. The first parameter #
      #is mandatory, but you did not provide it. Please run the program again!                            #
-     #####################################################################################################\n\n");
+     #####################################################################################################\n\n") unless $genomefile;
 
 
 my @gen=();
