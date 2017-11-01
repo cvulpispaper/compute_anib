@@ -9,7 +9,7 @@ https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
 
 Since the program is written in the Perl programming language, you will also
 need a Perl interpreter in order to run it. Perl is usually installed by defaul 
-in unix alike systems. Anyway you can download and install the later version of Perl 
+in unix alike systems. Anyway you can download and install the latest version of Perl 
 from https://www.perl.org/get.html
 
 This program computes anib values among a collection of bacterial genomes. 
