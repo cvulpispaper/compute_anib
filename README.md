@@ -1,7 +1,7 @@
 # compute_anib
 This is a perl script for computing anib values among bacterial genomes. 
 A greedy overlap removal strategy is applied.
-The program implements tha algorithm described in 
+The program implements the algorithm described in Michael Richter and Ramon Rosselló-Móra Proc Natl Acad Sci U S A. 2009 Nov 10; 106(45): 19126–19131 
 
 The program depends on a working ncbi installation of ncbi blast+ 
 You can install blast+ in your system by following instruction provided here:
@@ -25,7 +25,7 @@ This parameter is mandatory. The file list.txt provides a valid example.
 Sample genomes are also available on this github branch
 
 The second parameter is the number of processors to be used by blastn. If no value 
-is provided the default (1) will be used. You don't know about that, it can be left
+is provided the default (1) will be used. If you don't know about that, it can be left
 to 1. My advice is to you as many processors as you can on your machine
 
 The third parameter is a name for the output file. In no value is provided the 
@@ -35,14 +35,14 @@ You can run this script by writing:
 perl computeAnib.pl <list_file> <num_cpus> <output_file>
 in the commandline.  
 
-The script can require up to several our to complete, so I would  advise to run it as a background process with nohup.
+The script can require up to several hours to complete, so I would  advise to run it as a background process with nohup.
 Upon completion, the main output will be stored in the anib_table.csv file (or in the
 output file specified at runtime), consisting in a tab delineated square matrix, 
 reporting all anib values between all the pairs of genomes.  The file can be easily
 visualized with MS-excel or equivalent programs.
 
 No strong checking of file formats is perfomed, so in case of error please check that
-all the files are in the correct format if you encounter any error.
+all the files are in the correct format.
 Anyway feel free to contact Matteo Chiara (matteo.chiara@unimi.it) if you encounter
 any problem or unexpected behaviour
 
